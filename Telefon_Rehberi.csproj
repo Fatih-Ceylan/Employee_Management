@@ -8,6 +8,24 @@
   <ItemGroup>
     <Compile Remove="Migrations\20200517114952_addphoto.cs" />
     <Compile Remove="Migrations\20200517114952_addphoto.Designer.cs" />
+    <Compile Remove="Migrations\20200525135014_SomeProp.cs" />
+    <Compile Remove="Migrations\20200525135014_SomeProp.Designer.cs" />
+    <Compile Remove="Migrations\20200525143049_1.cs" />
+    <Compile Remove="Migrations\20200525143049_1.Designer.cs" />
+    <Compile Remove="Migrations\20200525144044_12.cs" />
+    <Compile Remove="Migrations\20200525144044_12.Designer.cs" />
+    <Compile Remove="Migrations\20200525144114_1.cs" />
+    <Compile Remove="Migrations\20200525144114_1.Designer.cs" />
+    <Compile Remove="Migrations\20200525145211_1.cs" />
+    <Compile Remove="Migrations\20200525145211_1.Designer.cs" />
+    <Compile Remove="Migrations\20200525145339_1.cs" />
+    <Compile Remove="Migrations\20200525145339_1.Designer.cs" />
+    <Compile Remove="Migrations\20200525145419_1.cs" />
+    <Compile Remove="Migrations\20200525145419_1.Designer.cs" />
+    <Compile Remove="Migrations\20200525145939_2.cs" />
+    <Compile Remove="Migrations\20200525145939_2.Designer.cs" />
+    <Compile Remove="Migrations\20200525150155_1.cs" />
+    <Compile Remove="Migrations\20200525150155_1.Designer.cs" />
   </ItemGroup>
 
 

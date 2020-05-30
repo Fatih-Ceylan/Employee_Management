@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,6 +10,7 @@ using Telefon_Rehberi.ViewModels;
 
 namespace Telefon_Rehberi.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -21,12 +23,15 @@ namespace Telefon_Rehberi.Controllers
             _hostingEnvironment = hostingEnvironment;
             _logger = logger;
         }
+
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var model = _employeeRepository.GetAllEmployees();
             return View(model);
         }
 
+        [AllowAnonymous]
         public ViewResult Details(int? id)
         {
             //throw new Exception("Error in Details");
@@ -37,7 +42,7 @@ namespace Telefon_Rehberi.Controllers
             _logger.LogError("Error Log");
             _logger.LogCritical("Critical Log");
             Employee employee = _employeeRepository.GetEmployeeID(id.Value);
-            if (employee==null)
+            if (employee == null)
             {
                 Response.StatusCode = 404;
                 return View("EmployeeNotFound", id.Value);
@@ -49,6 +54,7 @@ namespace Telefon_Rehberi.Controllers
             };
             return View(homeDetailsViewModel);
         }
+
         [HttpGet]
         public ViewResult Edit(int id)
         {
@@ -63,6 +69,7 @@ namespace Telefon_Rehberi.Controllers
             };
             return View(employeeEditViewModel);
         }
+
         [HttpPost]
         public IActionResult Edit(EmployeeEditViewModel model)
         {
@@ -72,7 +79,6 @@ namespace Telefon_Rehberi.Controllers
                 employee.Name = model.Name;
                 employee.Email = model.Email;
                 employee.Department = model.Department;
-
                 if (model.Photo != null)
                 {
                     if (model.ExistingPhotoPath != null)
@@ -87,11 +93,13 @@ namespace Telefon_Rehberi.Controllers
             }
             return View(model);
         }
+
         [HttpGet]
         public ViewResult Create()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Create(EmployeeCreateViewModel model)
         {
@@ -109,7 +117,6 @@ namespace Telefon_Rehberi.Controllers
                     Department = model.Department,
                     PhotoPath = uniqueFileName
                 };
-
                 _employeeRepository.Add(newEmployee);
                 return RedirectToAction("details", new { id = newEmployee.Id });
             }
@@ -136,6 +143,7 @@ namespace Telefon_Rehberi.Controllers
             return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

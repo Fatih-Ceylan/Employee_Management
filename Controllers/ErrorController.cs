@@ -18,6 +18,9 @@ namespace Telefon_Rehberi.Controllers
                 case 404:
                     ViewBag.ErrorMessage = "Sorry page not found";
                     break;
+                case 405:
+                    ViewBag.ErrorMessage = "Sorry page not found";
+                    break;
             }
             return View("NotFound");
         }
