@@ -21,5 +21,6 @@ namespace Telefon_Rehberi.ViewModels
         [Compare("Password",
             ErrorMessage = "Password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+        public string City { get; set; }
     }
 }

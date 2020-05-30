@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Telefon_Rehberi.Models;
 namespace Telefon_Rehberi.Controllers
 {
-    public class AppDbContext : IdentityDbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {

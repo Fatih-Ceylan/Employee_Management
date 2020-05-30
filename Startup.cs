@@ -25,7 +25,25 @@ namespace Telefon_Rehberi
         {
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TelefonDBConnection")));
 
+<<<<<<< Updated upstream
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+=======
+            // Password complexity can be arrange/override here
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredLength = 3;
+                options.Password.RequiredUniqueChars = 0;
+                options.Password.RequireNonAlphanumeric = false;
+            }).AddEntityFrameworkStores<AppDbContext>();
+
+            // To reach any of the controllers or actions, logged in users will be authenticated 
+            services.AddMvc(options =>
+            {
+                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                options.Filters.Add(new AuthorizeFilter(policy));
+>>>>>>> Stashed changes
 
             services.AddMvc().AddXmlSerializerFormatters();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
