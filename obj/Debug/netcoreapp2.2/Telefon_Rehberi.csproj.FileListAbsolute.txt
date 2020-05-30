@@ -35,3 +35,6 @@ C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\H
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Home\Edit.cshtml.g.cs
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\bin\Debug\netcoreapp2.2\libman.json
