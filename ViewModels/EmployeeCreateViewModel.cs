@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
-namespace Telefon_Rehberi.ViewModels
+namespace EmployeeManagement.ViewModels
 {
     public class EmployeeCreateViewModel
     {

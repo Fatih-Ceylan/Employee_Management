@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Telefon_Rehberi.Models;
-namespace Telefon_Rehberi.Controllers
+using EmployeeManagement.Models;
+namespace EmployeeManagement.Controllers
 {
     public class AppDbContext : IdentityDbContext
     {

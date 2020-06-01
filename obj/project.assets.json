@@ -12951,9 +12951,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.csproj",
-      "projectName": "Telefon_Rehberi",
-      "projectPath": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\Telefon_Rehberi.csproj",
+      "projectUniqueName": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\EmployeeManagement.csproj",
+      "projectName": "EmployeeManagement",
+      "projectPath": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\EmployeeManagement.csproj",
       "packagesPath": "C:\\Users\\feti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\obj\\",
       "projectStyle": "PackageReference",

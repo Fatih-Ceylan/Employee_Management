@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Telefon_Rehberi.Controllers
+namespace EmployeeManagement.Controllers
 {
     public class ErrorController : Controller
     {
