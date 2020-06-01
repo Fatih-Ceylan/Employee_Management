@@ -1,3 +1,3 @@
 Migration haric hepsi güncellendi 22.05.2020
 
-ExtendIdentity branch haric güncel
+UserRole(admin) Eklendi 01.06.2020
