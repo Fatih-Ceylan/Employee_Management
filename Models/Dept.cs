@@ -1,4 +1,4 @@
-﻿namespace Telefon_Rehberi
+﻿namespace EmployeeManagement
 {
     public enum Dept
     {

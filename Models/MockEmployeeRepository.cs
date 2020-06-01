@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Telefon_Rehberi
+namespace EmployeeManagement
 {
     public class MockEmployeeRepository : IEmployeeRepository
     {

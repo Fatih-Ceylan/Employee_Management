@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Telefon_Rehberi.Controllers;
+using EmployeeManagement.Controllers;
 
-namespace Telefon_Rehberi.Models
+namespace EmployeeManagement.Models
 {
     public class SQLEmployeeRepository : IEmployeeRepository
     {

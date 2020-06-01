@@ -1,6 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+<<<<<<< Updated upstream
 namespace Telefon_Rehberi.Utilities
+=======
+namespace EmployeeManagement.Utilities
+>>>>>>> Stashed changes
 {
     public class ValidEmailDomainAttribute : ValidationAttribute
     {

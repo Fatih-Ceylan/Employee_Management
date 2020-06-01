@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Telefon_Rehberi.Controllers;
+using EmployeeManagement.Controllers;
 
-namespace Telefon_Rehberi
+namespace EmployeeManagement
 {
     public interface IEmployeeRepository
     {

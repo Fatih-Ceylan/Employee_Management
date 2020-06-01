@@ -1,4 +1,4 @@
-﻿namespace Telefon_Rehberi.ViewModels
+﻿namespace EmployeeManagement.ViewModels
 {
     public class HomeDetailsViewModel
     {

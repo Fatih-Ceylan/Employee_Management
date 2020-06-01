@@ -1,6 +1,6 @@
 using System;
 
-namespace Telefon_Rehberi.Models
+namespace EmployeeManagement.Models
 {
     public class ErrorViewModel
     {

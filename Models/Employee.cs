@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace Telefon_Rehberi
+namespace EmployeeManagement
 {
     public class Employee
     {

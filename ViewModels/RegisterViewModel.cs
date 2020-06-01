@@ -1,8 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+<<<<<<< Updated upstream
 using Telefon_Rehberi.Utilities;
+=======
+using EmployeeManagement.Utilities;
+>>>>>>> Stashed changes
 
-namespace Telefon_Rehberi.ViewModels
+namespace EmployeeManagement.ViewModels
 {
     public class RegisterViewModel
     {

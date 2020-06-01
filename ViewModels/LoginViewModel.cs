@@ -1,6 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+<<<<<<< Updated upstream
 namespace Telefon_Rehberi.ViewModels
+=======
+namespace EmployeeManagement.ViewModels
+>>>>>>> Stashed changes
 {
     public class LoginViewModel
     {

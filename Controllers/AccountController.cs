@@ -3,9 +3,14 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+<<<<<<< Updated upstream
 using Telefon_Rehberi.ViewModels;
+=======
+using EmployeeManagement.Models;
+using EmployeeManagement.ViewModels;
+>>>>>>> Stashed changes
 
-namespace Telefon_Rehberi.Controllers
+namespace EmployeeManagement.Controllers
 {
     public class AccountController : Controller
     {
