@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Telefon_Rehberi.Models
+namespace EmployeeManagement.Models
 {
     // appdbcontext sınıfını temiz tutmak için tüm içeriği buraya aktaracağız
     public static class ModelBuilderExtensions

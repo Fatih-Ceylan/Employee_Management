@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Telefon_Rehberi.Controllers;
-using Telefon_Rehberi.Models;
+using EmployeeManagement.Controllers;
+using EmployeeManagement.Models;
 
-namespace Telefon_Rehberi
+namespace EmployeeManagement
 {
     public class Startup
     {
@@ -25,7 +25,7 @@ namespace Telefon_Rehberi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TelefonDBConnection")));
+            services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EmployeeDBConnection")));
 
             // Password complexity can be arrange/override here
             services.AddIdentity<IdentityUser, IdentityRole>(options =>

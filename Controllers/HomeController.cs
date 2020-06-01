@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Telefon_Rehberi.Models;
-using Telefon_Rehberi.ViewModels;
+using EmployeeManagement.Models;
+using EmployeeManagement.ViewModels;
 
-namespace Telefon_Rehberi.Controllers
+namespace EmployeeManagement.Controllers
 {
     [Authorize]
     public class HomeController : Controller

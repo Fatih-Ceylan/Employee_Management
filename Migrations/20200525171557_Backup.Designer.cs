@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Telefon_Rehberi.Controllers;
+using EmployeeManagement.Controllers;
 
-namespace Telefon_Rehberi.Migrations
+namespace EmployeeManagement.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20200525171557_Backup")]

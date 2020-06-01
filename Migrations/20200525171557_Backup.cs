@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Telefon_Rehberi.Migrations
+namespace EmployeeManagement.Migrations
 {
     public partial class Backup : Migration
     {
