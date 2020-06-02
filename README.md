@@ -1,4 +1,6 @@
-Login Logout özelliği eklendi 20.05.2020
+Login Logout özelliği eklendi 18.05.2020
+
+Authorization eklendi 20.05.2020
 
 Migration haric hepsi güncellendi 22.05.2020
  
