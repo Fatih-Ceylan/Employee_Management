@@ -1,6 +1,10 @@
 Migration haric hepsi güncellendi 22.05.2020
  
-ExtendIdentity branch haric güncel
+ExtendIdentity branch haric güncel 24.05.2020
+
+AspNetCore Identity Manager eklendi 25.05.2020
+
+AspNetCore SignInManager eklendi 26.05.2020
 
 Validations Eklendi 31.05.2020
  
