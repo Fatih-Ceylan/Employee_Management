@@ -28,7 +28,7 @@ namespace EmployeeManagement
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EmployeeDBConnection")));
 
             // Password complexity can be arrange/override here
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;

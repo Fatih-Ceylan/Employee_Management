@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
-<<<<<<< Updated upstream
-using Telefon_Rehberi.Utilities;
-=======
 using EmployeeManagement.Utilities;
->>>>>>> Stashed changes
 
 namespace EmployeeManagement.ViewModels
 {
@@ -25,5 +21,6 @@ namespace EmployeeManagement.ViewModels
         [Compare("Password",
             ErrorMessage = "Password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+        public string City { get; set; }
     }
 }

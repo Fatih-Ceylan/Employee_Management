@@ -39,3 +39,7 @@ C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeManag
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeManagement.csprojAssemblyReference.cache
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListRoles.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.cshtml.g.cs
