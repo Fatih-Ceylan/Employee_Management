@@ -1,3 +1,5 @@
+Login Logout özelliği eklendi 20.05.2020
+
 Migration haric hepsi güncellendi 22.05.2020
  
 ExtendIdentity branch haric güncel 24.05.2020
