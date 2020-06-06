@@ -43,3 +43,6 @@ C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\A
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditRole.cshtml.g.cs
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
 C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListUsers.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
+C:\Users\feti\source\repos\Telefon_Rehberi\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUser.cshtml.g.cs

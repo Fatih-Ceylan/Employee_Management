@@ -12951,11 +12951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\EmployeeManagement.csproj",
+      "projectUniqueName": "C:\\Users\\feti\\source\\repos\\Employee_Management\\EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\EmployeeManagement.csproj",
+      "projectPath": "C:\\Users\\feti\\source\\repos\\Employee_Management\\EmployeeManagement.csproj",
       "packagesPath": "C:\\Users\\feti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feti\\source\\repos\\Telefon_Rehberi\\obj\\",
+      "outputPath": "C:\\Users\\feti\\source\\repos\\Employee_Management\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
