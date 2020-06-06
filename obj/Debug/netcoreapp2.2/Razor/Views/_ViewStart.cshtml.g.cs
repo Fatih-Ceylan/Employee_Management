@@ -33,17 +33,8 @@ using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
-#line 4 "C:\Users\feti\source\repos\Telefon_Rehberi\Views\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-<<<<<<< Updated upstream
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"89c01e866e011e965867161579b707f3b8cc8d64", @"/Views/_ViewImports.cshtml")]
-=======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d05767170b698af1d8491880ed0ed9cebd394cbb", @"/Views/_ViewImports.cshtml")]
->>>>>>> Stashed changes
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

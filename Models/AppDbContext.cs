@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using EmployeeManagement.Models;
 namespace EmployeeManagement.Controllers
 {
-    public class AppDbContext : IdentityDbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
