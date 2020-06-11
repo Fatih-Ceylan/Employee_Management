@@ -15,7 +15,7 @@
             "ASPNETCORE_ENVIRONMENT": "Development"
         }
     },
-    "Telefon_Rehberi": {
+    "Employee_Management": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5000",

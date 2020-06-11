@@ -42,8 +42,20 @@ namespace EmployeeManagement
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
-
             }).AddXmlSerializerFormatters();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role"));
+                options.AddPolicy("EditRolePolicy",
+                    policy => policy.RequireClaim("Edit Role"));
+                                    
+
+                options.AddPolicy("AdminRolePolicy", 
+                    policy => policy.RequireRole("Admin"));
+            });
+
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
 
             services.Configure<CookiePolicyOptions>(options =>

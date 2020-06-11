@@ -57,7 +57,6 @@ C:\Users\feti\source\repos\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeM
 C:\Users\feti\source\repos\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeManagement.pdb
 C:\Users\feti\source\repos\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeManagement.Views.dll
 C:\Users\feti\source\repos\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeManagement.Views.pdb
-C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.csprojAssemblyReference.cache
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorAssemblyInfo.cache
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorAssemblyInfo.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.AssemblyInfoInputs.cache
@@ -94,3 +93,5 @@ C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeM
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.dll
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.pdb
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.csprojAssemblyReference.cache
