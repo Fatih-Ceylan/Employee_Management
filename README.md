@@ -17,4 +17,15 @@ Proje Güncellendi 01.06.2020
 UserRole(admin) Eklendi 01.06.2020 
 
 Manage Roles sekmesi eklendi 02.06.2020
+
+Custom Error Page eklendi 03.06.2020
+
+Role Based Authorization eklendi 06.06.2020
+
+Identity Manager'a eklemeler yapıldı 07.06.2020
+
+Entity Framework "ON DELETE no action" migration eklendi 08.06.2020
  
+Role Based Authorization güncellendi 09.06.2020
+ 
+Claims Based Authorization eklendi 11.06.2020
