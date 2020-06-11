@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using EmployeeManagement.Controllers;
 using EmployeeManagement.Models;
+using EmployeeManagement.Security;
 
 namespace EmployeeManagement
 {
@@ -44,19 +45,34 @@ namespace EmployeeManagement
                 options.Filters.Add(new AuthorizeFilter(policy));
             }).AddXmlSerializerFormatters();
 
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
+            });
+
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("DeleteRolePolicy",
                     policy => policy.RequireClaim("Delete Role"));
-                options.AddPolicy("EditRolePolicy",
-                    policy => policy.RequireClaim("Edit Role"));
-                                    
 
-                options.AddPolicy("AdminRolePolicy", 
+                /*instead of this*/
+                //options.AddPolicy("EditRolePolicy", policy => policy.RequireAssertion(context =>
+                //context.User.IsInRole("Admin") &&
+                //context.User.HasClaim(claim => claim.Type == "Edit Role" && claim.Value == "true") ||
+                //context.User.IsInRole("Super Admin")
+                //));
+                options.AddPolicy("EditRolePolicy",
+                    policy => policy.AddRequirements(new ManageAdminRolesAndClaimsRequirement()));
+
+                options.AddPolicy("AdminRolePolicy",
                     policy => policy.RequireRole("Admin"));
             });
 
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
+
+            services.AddSingleton<IAuthorizationHandler, CanEditOnlyOtherAdminRolesAndClaimsHandler>();
+
+            services.AddSingleton<IAuthorizationHandler, SuperAdminHandler>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {

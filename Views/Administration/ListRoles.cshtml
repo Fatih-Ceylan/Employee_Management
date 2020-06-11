@@ -28,18 +28,19 @@
                     {
                         <a class="btn btn-primary" asp-action="EditRole" asp-controller="Administration" asp-route-id="@role.Id">Edit</a>
                     }
+
                     <span id="confirmDeleteSpan_@role.Id" style="display:none">
                         <span>Are you sure you want to delete?</span>
-                        <button type="submit" class="btn btn-danger">Yes</button>
-                        <a href="#" class="btn btn-primary" onclick="confirmDelete('@role.Id',false)">No</a>
+                        <button type="submit" class="btn btn-success">Yes</button>
+                        <a href="#" class="btn btn-danger" onclick="confirmDelete('@role.Id',false)">No</a>
                     </span>
                     <span id="deleteSpan_@role.Id">
-
-                         @*not sure if its correct*@
+                       
+                        @*not sure if it's correct*@
                         @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded)
-                        {
-                            <a href="#" class="btn btn-danger" onclick="confirmDelete('@role.Id',true)">Delete</a>
-                        }
+                            {
+                                <a href="#" class="btn btn-danger" onclick="confirmDelete('@role.Id',true)">Delete</a>
+                            }
                     </span>
 
                 </form>

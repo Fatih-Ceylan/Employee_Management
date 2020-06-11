@@ -64,7 +64,6 @@ C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeM
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.TagHelpers.input.cache
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.TagHelpers.output.cache
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.RazorCoreGenerate.cache
-C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.cshtml.g.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Administration\CreateRole.cshtml.g.cs
@@ -95,3 +94,4 @@ C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeM
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.csprojAssemblyReference.cache
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Administration\AccessDenied.cshtml.g.cs

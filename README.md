@@ -29,3 +29,8 @@ Entity Framework "ON DELETE no action" migration eklendi 08.06.2020
 Role Based Authorization güncellendi 09.06.2020
  
 Claims Based Authorization eklendi 11.06.2020
+
+Custom authorization requirements and handlers eklendi 12.06.2020
+
+
+
