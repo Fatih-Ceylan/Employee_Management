@@ -32,5 +32,7 @@ Claims Based Authorization eklendi 11.06.2020
 
 Custom authorization requirements and handlers eklendi 12.06.2020
 
+Google authentication eklendi 12.06.2020
+
 
 
