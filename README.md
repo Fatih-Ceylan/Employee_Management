@@ -34,5 +34,7 @@ Custom authorization requirements and handlers eklendi 12.06.2020
 
 Google authentication eklendi 12.06.2020
 
+Facebook authentication eklendi 14.06.2020
+
 
 
