@@ -52,6 +52,12 @@ namespace EmployeeManagement
                   options.ClientSecret = "R9BtS6DKl3_CsbqHOyw5wGoq";
               });
 
+            services.AddAuthentication()
+                    .AddFacebook(options =>
+                    {
+                        options.ClientId = "200985437745208";
+                        options.ClientSecret = "91d389dda73756d6d9c9a2cb29abbad4";
+                    });
             services.ConfigureApplicationCookie(options =>
             {
                 options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
