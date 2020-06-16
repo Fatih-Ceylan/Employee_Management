@@ -36,5 +36,9 @@ Google authentication eklendi 12.06.2020
 
 Facebook authentication eklendi 14.06.2020
 
+Logging Nlog extension eklendi 15.06.2020
+
+Email confirmation eklendi 16.06.2020
+
 
 
