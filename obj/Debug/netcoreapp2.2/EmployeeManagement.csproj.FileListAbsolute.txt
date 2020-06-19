@@ -97,3 +97,7 @@ C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeM
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.pdb
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
