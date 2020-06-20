@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using EmployeeManagement.Controllers;
 using EmployeeManagement.Models;
 using EmployeeManagement.Security;
+using System;
 
 namespace EmployeeManagement
 {
@@ -38,9 +39,19 @@ namespace EmployeeManagement
                 options.Password.RequireNonAlphanumeric = false;
 
                 options.SignIn.RequireConfirmedEmail = true;
+
+                options.Tokens.EmailConfirmationTokenProvider = "CustomEmailConfirmation";
             })
                 .AddEntityFrameworkStores<AppDbContext>()
-                .AddDefaultTokenProviders();
+                .AddDefaultTokenProviders()
+                .AddTokenProvider<CustomEmailConfirmationTokenProvider<ApplicationUser>>("CustomEmailConfirmation");
+
+
+            // Sets life span of "all tokens" to 5 hours
+            services.Configure<DataProtectionTokenProviderOptions>(o => o.TokenLifespan = TimeSpan.FromHours(5));
+
+            // Changes token lifespan of just the Email Confirmation Token type to 3 days
+            services.Configure<CustomEmailConfirmationTokenProviderOptions>(o => o.TokenLifespan = TimeSpan.FromDays(3));
 
             // To reach any of the controllers or actions, logged in users will be authenticated 
             services.AddMvc(options =>
