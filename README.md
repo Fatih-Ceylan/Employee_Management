@@ -40,5 +40,11 @@ Logging Nlog extension eklendi 15.06.2020
 
 Email confirmation eklendi 16.06.2020
 
+Forgot password eklendi 17.06.2020
+
+Generate Tokens for email and password eklendi 18.06.2020
+
+Customize tokens eklendi 19.06.2020
+
 
 
