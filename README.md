@@ -36,5 +36,15 @@ Google authentication eklendi 12.06.2020
 
 Facebook authentication eklendi 14.06.2020
 
+Email confirmation eklendi 16.06.2020
 
+External login confirmation eklendi 17.06.2020
+
+Forgot password eklendi 18.06.2020
+
+Token generation and validation eklendi 19.06.2020
+
+Custom token provider and reset password token eklendi 20.06.2020
+
+Data encryption and decryption eklendi 21.06.2020
 
