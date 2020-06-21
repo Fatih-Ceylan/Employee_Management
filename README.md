@@ -48,3 +48,5 @@ Custom token provider and reset password token eklendi 20.06.2020
 
 Data encryption and decryption eklendi 21.06.2020
 
+Account Lockout eklendi 21.06.2020
+
