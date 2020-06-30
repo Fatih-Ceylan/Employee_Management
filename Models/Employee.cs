@@ -2,6 +2,9 @@
 <<<<<<< Updated upstream
 =======
 using System.ComponentModel.DataAnnotations.Schema;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 namespace EmployeeManagement
 {

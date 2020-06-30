@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\feti\source\repos\Employee_Management\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1d774b59c9b6c792b36106e55b2971a6268a3889"
+=======
+#pragma checksum "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "53c07d68a6687f5b3497c165c853bd416910fe16"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "53c07d68a6687f5b3497c165c853bd416910fe16"
 >>>>>>> Stashed changes
@@ -152,9 +156,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 18 "C:\Users\feti\source\repos\Employee_Management\Views\Home\Index.cshtml"
                                                                 WriteLiteral(employee.Id);
 =======
+=======
+>>>>>>> Stashed changes
 #line 18 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Home\Index.cshtml"
                                                                 WriteLiteral(employee.EncryptedId);
 >>>>>>> Stashed changes

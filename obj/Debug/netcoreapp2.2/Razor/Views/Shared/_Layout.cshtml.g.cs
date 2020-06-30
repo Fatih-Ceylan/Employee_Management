@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\feti\source\repos\Employee_Management\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "af0230b3649a59371eb532bcfdeb195212cefabd"
+=======
+#pragma checksum "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4777fc966c5583f92d892bfb99906174d5e3aebd"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4777fc966c5583f92d892bfb99906174d5e3aebd"
 >>>>>>> Stashed changes
@@ -587,7 +591,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
                 WriteLiteral("\r\n                </ul>\r\n\r\n                <ul class=\"navbar-nav ml-auto\">\r\n");
                 EndContext();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 74 "C:\Users\feti\source\repos\Employee_Management\Views\Shared\_Layout.cshtml"
+=======
+#line 76 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 76 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes
@@ -610,6 +618,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
 =======
                     BeginContext(4187, 18, false);
 #line 80 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                                                                              Write(User.Identity.Name);
 
@@ -643,7 +654,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
                 WriteLiteral("\r\n                        </li>\r\n");
                 EndContext();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 81 "C:\Users\feti\source\repos\Employee_Management\Views\Shared\_Layout.cshtml"
+=======
+#line 83 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 83 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes
@@ -707,7 +722,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
                 WriteLiteral("\r\n                        </li>\r\n");
                 EndContext();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 90 "C:\Users\feti\source\repos\Employee_Management\Views\Shared\_Layout.cshtml"
+=======
+#line 92 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 92 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes
@@ -724,6 +743,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
 =======
                 BeginContext(4858, 12, false);
 #line 98 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
    Write(RenderBody());
 
@@ -734,7 +756,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
                 WriteLiteral("\r\n    </div>\r\n");
                 EndContext();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 98 "C:\Users\feti\source\repos\Employee_Management\Views\Shared\_Layout.cshtml"
+=======
+#line 100 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 100 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes
@@ -750,6 +776,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
 =======
                 BeginContext(4939, 40, false);
 #line 102 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
    Write(RenderSection("Scripts", required: true));
 
@@ -757,7 +786,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.SuppressFallbackIntegrity = 
 #line hidden
                 EndContext();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #line 100 "C:\Users\feti\source\repos\Employee_Management\Views\Shared\_Layout.cshtml"
+=======
+#line 102 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
+>>>>>>> Stashed changes
 =======
 #line 102 "C:\Users\feti\Documents\GitHub\Telefon_Rehberi\Views\Shared\_Layout.cshtml"
 >>>>>>> Stashed changes

@@ -169,4 +169,7 @@ C:\Users\feti\Documents\GitHub\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeM
 C:\Users\feti\Documents\GitHub\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeManagement.dll
 C:\Users\feti\Documents\GitHub\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeManagement.pdb
 C:\Users\feti\Documents\GitHub\Telefon_Rehberi\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
