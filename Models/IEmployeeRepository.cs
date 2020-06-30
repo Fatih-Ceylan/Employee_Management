@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using EmployeeManagement.Controllers;
-
 namespace EmployeeManagement
 {
     public interface IEmployeeRepository
@@ -10,6 +8,5 @@ namespace EmployeeManagement
         Employee Add(Employee employee);
         Employee Update(Employee employeeChanges);
         Employee Delete(int id);
-
     }
 }

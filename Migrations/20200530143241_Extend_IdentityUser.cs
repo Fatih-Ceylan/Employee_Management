@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-
 namespace EmployeeManagement.Migrations
 {
     public partial class Extend_IdentityUser : Migration
@@ -11,7 +10,6 @@ namespace EmployeeManagement.Migrations
                 table: "AspNetUsers",
                 nullable: true);
         }
-
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(

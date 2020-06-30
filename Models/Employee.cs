@@ -1,4 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
+<<<<<<< Updated upstream
+=======
+using System.ComponentModel.DataAnnotations.Schema;
+>>>>>>> Stashed changes
 namespace EmployeeManagement
 {
     public class Employee
