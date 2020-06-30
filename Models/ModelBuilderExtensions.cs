@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
 namespace EmployeeManagement.Models
 {
     // appdbcontext sınıfını temiz tutmak için tüm içeriği buraya aktaracağız
