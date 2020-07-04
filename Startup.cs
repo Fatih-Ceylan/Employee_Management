@@ -56,7 +56,7 @@ namespace EmployeeManagement
             // Changes token lifespan of just the Email Confirmation Token type to 3 days
             services.Configure<CustomEmailConfirmationTokenProviderOptions>(o => o.TokenLifespan = TimeSpan.FromDays(3));
 
-            // To reach any of the controllers or actions, logged in users will be authenticated 
+            // To reach any of the controllers or actions, logged in users will be authenticated
             services.AddMvc(options =>
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
