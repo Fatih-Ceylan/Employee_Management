@@ -89,9 +89,7 @@ namespace EmployeeManagement.Controllers
                 var result = await userManager.ChangePasswordAsync(user,
                     model.CurrentPassword, model.NewPassword);
 
-                // The new password did not meet the complexity rules or
-                // the current password is incorrect. Add these errors to
-                // the ModelState and rerender ChangePassword view
+                // The new password did not meet the complexity rules or the current password is incorrect. Add these errors to the ModelState and rerender ChangePassword view
                 if (!result.Succeeded)
                 {
                     foreach (var error in result.Errors)
