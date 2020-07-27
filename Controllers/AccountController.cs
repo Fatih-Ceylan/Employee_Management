@@ -29,7 +29,6 @@ namespace EmployeeManagement.Controllers
         {
             var user = await userManager.GetUserAsync(User);
             var userHasPassword = await userManager.HasPasswordAsync(user);
-
             if (userHasPassword)
             {
                 return RedirectToAction("ChangePassword");
