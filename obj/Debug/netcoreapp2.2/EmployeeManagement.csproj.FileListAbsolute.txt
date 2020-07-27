@@ -106,11 +106,11 @@ C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Vie
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\AddPassword.cshtml.g.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\AddPasswordConfirmation.cshtml.g.cs
 C:\Users\feti\source\repos\Employee_Management\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccountLockout.cshtml.g.cs
+C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\nlog.config
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\appsettings.json
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\libman.json
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\nlog.config
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeManagement.deps.json
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeManagement.runtimeconfig.json
 C:\Users\feti\Documents\GitHub\Employee_Management\bin\Debug\netcoreapp2.2\EmployeeManagement.runtimeconfig.dev.json
