@@ -19,6 +19,7 @@ namespace EmployeeManagement.Controllers
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IHostingEnvironment _hostingEnvironment;
         private readonly ILogger _logger;
+
         // It is through IDataProtector interface Protect and Unprotect methods,
         // we encrypt and decrypt respectively
         private readonly IDataProtector _protector;
@@ -29,6 +30,7 @@ namespace EmployeeManagement.Controllers
             _employeeRepository = employeeRepository;
             _hostingEnvironment = hostingEnvironment;
             _logger = logger;
+
             // Pass the purpose string as a parameter
             _protector = dataProtectionProvider.CreateProtector(dataProtectionPurposeString.EmployeeIdRouteValue);
         }
