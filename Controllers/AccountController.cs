@@ -8,7 +8,6 @@ using System.Linq;
 using System.Security.Claims;
 using Microsoft.Extensions.Logging;
 using System;
-
 namespace EmployeeManagement.Controllers
 {
     public class AccountController : Controller
