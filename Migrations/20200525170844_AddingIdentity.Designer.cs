@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using EmployeeManagement.Controllers;
-
 namespace EmployeeManagement.Migrations
 {
     [DbContext(typeof(AppDbContext))]
@@ -29,6 +28,8 @@ namespace EmployeeManagement.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
+                    
+                    
                     b.Property<string>("Name")
                         .HasMaxLength(256);
 
