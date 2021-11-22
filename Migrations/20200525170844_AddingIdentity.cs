@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-
 namespace EmployeeManagement.Migrations
 {
+
     public partial class AddingIdentity : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
