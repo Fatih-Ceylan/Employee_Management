@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using EmployeeManagement.Controllers;
-
 namespace EmployeeManagement.Migrations
 {
     [DbContext(typeof(AppDbContext))]
@@ -15,6 +14,7 @@ namespace EmployeeManagement.Migrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
+            
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
