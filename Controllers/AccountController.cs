@@ -12,6 +12,8 @@ namespace EmployeeManagement.Controllers
 {
     public class AccountController : Controller
     {
+    
+    
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
         private readonly ILogger<AccountController> logger;
