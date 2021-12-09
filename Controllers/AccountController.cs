@@ -13,7 +13,6 @@ namespace EmployeeManagement.Controllers
     public class AccountController : Controller
     {
     
-    
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
         private readonly ILogger<AccountController> logger;
@@ -73,7 +72,6 @@ namespace EmployeeManagement.Controllers
             }
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
         {
@@ -118,6 +116,7 @@ namespace EmployeeManagement.Controllers
             {
                 ModelState.AddModelError("", "Invalid password reset token");
             }
+            
             return View();
         }
 
