@@ -4,7 +4,6 @@ namespace EmployeeManagement.Migrations
 {
     public partial class Backup : Migration
     {
-    
         protected override void Up(MigrationBuilder migrationBuilder)
         {
         
