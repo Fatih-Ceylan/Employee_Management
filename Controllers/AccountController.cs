@@ -27,6 +27,7 @@ namespace EmployeeManagement.Controllers
         [HttpGet]
         public async Task<IActionResult> AddPassword()
         {
+        
             var user = await userManager.GetUserAsync(User);
             var userHasPassword = await userManager.HasPasswordAsync(user);
             if (userHasPassword)
